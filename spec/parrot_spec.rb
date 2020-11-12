@@ -1,8 +1,7 @@
 require_relative './spec_helper'
 require_relative '../parrot.rb' # Code your solution in this file
 
-parrot(sound)
-parrot("Pretty bird!")
+
 
 describe '#parrot' do
   it 'should output "Squawk!" to the terminal when called without any arguments' do
